@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="font">
+        <item name="android:fontFamily">@font/regular</item>
+    </style>
+    <style name="headingText" parent="font">
+        <item name="android:textSize">28sp</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/darkBlue</item>
+    </style>
+    <style name="labelText" parent="font">
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="inputText" parent="font">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="button" parent="font">
+        <item name="android:textSize">22sp</item>
+        <item name="backgroundColor">@color/darkBlue</item>
+    </style>
+</resources>
