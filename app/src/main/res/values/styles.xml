@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="heading" parent="fontMedium">
+        <item name="android:textSize">25sp</item>
+        <item name="android:paddingHorizontal">20dp</item>
+
+    </style>
+    <style name="labelText" parent="fontLight">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal">25dp</item>
+    </style>
+    <style name="inputText" parent="fontLight">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">30dp</item>
+    </style>
+    <style name="button" parent="fontRegular">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/darkBlue</item>
+    </style>
+
+    <style name="fontMedium">
+        <item name="android:fontFamily">@font/medium</item>
+    </style>
+    <style name="fontRegular">
+        <item name="fontFamily">@font/regular</item>
+    </style>
+    <style name="fontLight">
+        <item name="fontFamily">@font/light</item>
+    </style>
+
+    <style name="detailText" parent="fontLight">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
